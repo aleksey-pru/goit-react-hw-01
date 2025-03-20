@@ -1,0 +1,14 @@
+.text {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

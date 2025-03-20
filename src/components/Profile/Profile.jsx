@@ -12,15 +12,15 @@ const Profile = ({ name, tag, location, image, stats }) => {
       </div>
       <ul className={clsx(css.stats)}>
         <li className={clsx(css.statItem)}>
-          <span className={clsx(css.label)}>Followers</span>&nbsp;
+          <span className={clsx(css.label)}>Followers</span>
           <span className={clsx(css.value)}>{stats.followers}</span>
         </li>
         <li className={clsx(css.statItem)}>
-          <span className={clsx(css.label)}>Views</span>&nbsp;
+          <span className={clsx(css.label)}>Views</span>
           <span className={clsx(css.value)}>{stats.views}</span>
         </li>
         <li className={clsx(css.statItem)}>
-          <span className={clsx(css.label)}>Likes</span>&nbsp;
+          <span className={clsx(css.label)}>Likes</span>
           <span className={clsx(css.value)}>{stats.likes}</span>
         </li>
       </ul>
