@@ -1,0 +1,55 @@
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.userImg {
+    border-radius: 50%;
+    background-color: rgb(42, 42, 42);
+}
+.userName {
+    font-size: 42px;
+    font-weight: bold;
+}
+.userTag {
+    color: gray;
+    font-size: 30px;
+}
+.userLoc {
+    color: gray;
+    font-size: 35px;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(202, 202, 202);
+    border-top: 2px solid rgb(107, 107, 107);
+}
+.statItem {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-right: 2px solid rgb(107, 107, 107);
+}
+.statItem:last-child {
+    border-right: none;
+}
+.label {
+    display: block;
+    font-size: 28px;
+    color: #000;
+}
+.value {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
