@@ -5,7 +5,7 @@ import FriendListItem from '../FriendListItem/FriendListItem';
 
 const Friendlist = ({friends}) => {
   return (
-    <ul className={clsx(css.container)}>
+    <ul className={css.container}>
         {friends.map((friend) => {
             return <li className={clsx(css.item)} key={friend.id}><FriendListItem 
                 avatar={friend.avatar}
